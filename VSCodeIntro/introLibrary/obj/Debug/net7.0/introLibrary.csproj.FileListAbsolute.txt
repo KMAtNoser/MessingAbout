@@ -10,3 +10,15 @@ C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.dll
 C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\refint\introLibrary.dll
 C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.pdb
 C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\ref\introLibrary.dll
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\bin\Debug\net7.0\introLibrary.deps.json
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\bin\Debug\net7.0\introLibrary.dll
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\bin\Debug\net7.0\introLibrary.pdb
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.csproj.AssemblyReference.cache
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.AssemblyInfoInputs.cache
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.AssemblyInfo.cs
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.csproj.CoreCompileInputs.cache
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.dll
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\refint\introLibrary.dll
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.pdb
+C:\Work\TryingThingsOut\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\ref\introLibrary.dll

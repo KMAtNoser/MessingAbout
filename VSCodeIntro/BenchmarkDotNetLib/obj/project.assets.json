@@ -1350,11 +1350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj",
+      "projectUniqueName": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj",
       "projectName": "BenchmarkDotNetLib",
-      "projectPath": "C:\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj",
+      "projectPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj",
       "packagesPath": "C:\\Users\\kevin.melvin\\.nuget\\packages\\",
-      "outputPath": "C:\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\obj\\",
+      "outputPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin.melvin\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "onkcQrF3MPftDDBkTbnjmzlFbHrSs8X6Bc6B9pkiFLObfLX4v1fi3+PQHcXR7tdX4hiNpkiEC08xWz4zoXHJ8g==",
+  "dgSpecHash": "3ipL1lpaxbqxY8vkbhjpfbPqDwXOW0tKTmdKklCqYi8LJ6IokO18kaG/tCEpQHRvQPG+j+uaU7M161ebEQ/csA==",
   "success": true,
-  "projectFilePath": "C:\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj",
+  "projectFilePath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin.melvin\\.nuget\\packages\\benchmarkdotnet\\0.13.2\\benchmarkdotnet.0.13.2.nupkg.sha512",
     "C:\\Users\\kevin.melvin\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.2\\benchmarkdotnet.annotations.0.13.2.nupkg.sha512",

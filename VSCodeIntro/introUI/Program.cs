@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography;
+﻿using System;
+using System.Diagnostics;
+using System.Security.Cryptography;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 
@@ -18,7 +20,7 @@ namespace introUI
             var person = container.Resolve<IPerson>();
             Console.WriteLine($"{person.FirstName} - {person.Surname} - {person.BirthDate}");
 
-            doBenchMarks();
+            doBenchMarks(); // Only runs in DEBUG
         }
 
         private IContainer initContainer()
@@ -36,6 +38,7 @@ namespace introUI
             return builder.Build();
         }
 
+        [Conditional("RELEASE")]
         private void doBenchMarks()
         {
             var summary = BenchmarkRunner.Run<Md5VsSha256>();

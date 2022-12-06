@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FCt10Cg2UBiHXzHcjMfoHDQUZRV3HVN58NKtuOvfmH9Uk7GpQ4FExfK0zmkuRsccm7QTDK6OSFUKc7N6le9HCQ==",
+  "dgSpecHash": "O71sHp7lmD7CnTk+LNN0CAuRxZdNBCiUDkeRJNc0RboScNaQAqi1ADxpSsY+qywOA1cNHXL5GGF7hu/ZvCKDRw==",
   "success": true,
-  "projectFilePath": "C:\\_repos\\VSCodeIntro\\introUI\\introUI.csproj",
+  "projectFilePath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introUI\\introUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin.melvin\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\kevin.melvin\\.nuget\\packages\\benchmarkdotnet\\0.13.2\\benchmarkdotnet.0.13.2.nupkg.sha512",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj",
+      "projectUniqueName": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj",
       "projectName": "introLibrary",
-      "projectPath": "C:\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj",
+      "projectPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj",
       "packagesPath": "C:\\Users\\kevin.melvin\\.nuget\\packages\\",
-      "outputPath": "C:\\_repos\\VSCodeIntro\\introLibrary\\obj\\",
+      "outputPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin.melvin\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1462,11 +1462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_repos\\VSCodeIntro\\introUI\\introUI.csproj",
+      "projectUniqueName": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introUI\\introUI.csproj",
       "projectName": "introUI",
-      "projectPath": "C:\\_repos\\VSCodeIntro\\introUI\\introUI.csproj",
+      "projectPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introUI\\introUI.csproj",
       "packagesPath": "C:\\Users\\kevin.melvin\\.nuget\\packages\\",
-      "outputPath": "C:\\_repos\\VSCodeIntro\\introUI\\obj\\",
+      "outputPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin.melvin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1481,11 +1481,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj": {
-              "projectPath": "C:\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj"
+            "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj": {
+              "projectPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\BenchmarkDotNetLib\\BenchmarkDotNetLib.csproj"
             },
-            "C:\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj": {
-              "projectPath": "C:\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj"
+            "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj": {
+              "projectPath": "C:\\Work\\TryingThingsOut\\_repos\\VSCodeIntro\\introLibrary\\introLibrary.csproj"
             }
           }
         }
