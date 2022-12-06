@@ -1,0 +1,5 @@
+C:\_repos\VSCodeIntro\BenchmarkDotNetLib\obj\Debug\net7.0\BenchmarkDotNetLib.csproj.AssemblyReference.cache
+C:\_repos\VSCodeIntro\BenchmarkDotNetLib\obj\Debug\net7.0\BenchmarkDotNetLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\_repos\VSCodeIntro\BenchmarkDotNetLib\obj\Debug\net7.0\BenchmarkDotNetLib.AssemblyInfoInputs.cache
+C:\_repos\VSCodeIntro\BenchmarkDotNetLib\obj\Debug\net7.0\BenchmarkDotNetLib.AssemblyInfo.cs
+C:\_repos\VSCodeIntro\BenchmarkDotNetLib\obj\Debug\net7.0\BenchmarkDotNetLib.csproj.CoreCompileInputs.cache

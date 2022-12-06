@@ -1,0 +1,12 @@
+C:\_repos\VSCodeIntro\introLibrary\bin\Debug\net7.0\introLibrary.deps.json
+C:\_repos\VSCodeIntro\introLibrary\bin\Debug\net7.0\introLibrary.dll
+C:\_repos\VSCodeIntro\introLibrary\bin\Debug\net7.0\introLibrary.pdb
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.csproj.AssemblyReference.cache
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.AssemblyInfoInputs.cache
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.AssemblyInfo.cs
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.csproj.CoreCompileInputs.cache
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.dll
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\refint\introLibrary.dll
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\introLibrary.pdb
+C:\_repos\VSCodeIntro\introLibrary\obj\Debug\net7.0\ref\introLibrary.dll
