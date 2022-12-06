@@ -5,24 +5,39 @@ using BenchmarkDotNet.Running;
 
 namespace MyBenchmarks
 {
-    public class Md5VsSha256
+    public interface IRandomDataBuff
+    {
+        byte[] Data {get;}
+    }
+
+    public class RandomDataBuff:
+        IRandomDataBuff
     {
         private const int N = 10000;
-        private readonly byte[] data;
-
-        private readonly SHA256 sha256 = SHA256.Create();
-        private readonly MD5 md5 = MD5.Create();
-
-        public Md5VsSha256()
+        public byte[] Data {get; private set;}
+        
+        public RandomDataBuff()
         {
-            data = new byte[N];
-            new Random(42).NextBytes(data);
+            Data = new byte[N];
+            new Random(42).NextBytes(Data);
+        }
+    }
+
+    public class HasherBenchMarker<T>
+        where T: HashAlgorithm
+    {
+        private readonly T _hashAlgorithm;
+        private readonly IRandomDataBuff _randomDataBuff;
+
+        public HasherBenchMarker(
+            T hashAlgorithm,
+            IRandomDataBuff randomDataBuff)
+        {
+            _hashAlgorithm = hashAlgorithm;
+            _randomDataBuff = _randomDataBuff; 
         }
 
         [Benchmark]
-        public byte[] Sha256() => sha256.ComputeHash(data);
-
-        [Benchmark]
-        public byte[] Md5() => md5.ComputeHash(data);
+        public byte[] ComputeHash() => _hashAlgorithm.ComputeHash(_randomDataBuff.Data);
     }
 }
