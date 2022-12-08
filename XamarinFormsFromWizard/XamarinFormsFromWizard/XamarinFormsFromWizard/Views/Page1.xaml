@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsFromWizard.Views.Page1"
+             xmlns:services="clr-namespace:XamarinFormsFromWizard.Services"
+             BackgroundColor="Cornsilk"
+             Title="One">
+    <ContentPage.Resources>
+        <services:IsKevinConvertor x:Key="hasKevinBeenEntered" />
+       
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid Margin ="30" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Frame
+                   CornerRadius="30" 
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Red"
+                   Grid.Row ="0"
+                   Grid.Column=" 0">
+                <Label Text="0,0"
+                   FontSize="Large"
+                   BackgroundColor="Red"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   />
+            </Frame>
+            <Button 
+                   Clicked="Button_Clicked"
+                   CornerRadius="10"
+                   Text="0,1"
+                   FontSize="Large"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Red"
+                   Grid.Row ="0"
+                   Grid.Column="1">
+                <Button.Triggers>
+                    <DataTrigger TargetType="Button"
+                     Binding="{Binding Source={x:Reference entryControl}, Path=Text, Converter={StaticResource hasKevinBeenEntered}}"
+                                 
+                     Value="true">
+                        <Setter Property="BackgroundColor" Value="Green" />
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
+            <Frame
+                   CornerRadius="300" 
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Yellow"
+                   Grid.Row ="1"
+                   Grid.Column=" 0">
+                <Label Text="1,0"
+                   FontSize="Large"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="Yellow"/>
+            </Frame>
+            <BoxView CornerRadius="10"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand" 
+                   BackgroundColor="Orange"
+                   Grid.Row ="1"
+                   Grid.Column="1">
+
+            </BoxView>
+            <Frame
+                   CornerRadius="300" 
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Bisque"         
+                   Grid.Row ="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2">
+                <Label Text="2,1-2"
+                   FontSize="Large"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   />
+            </Frame>
+            <Entry x:Name="entryControl"
+                   Grid.Row ="3"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

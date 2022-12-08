@@ -1,0 +1,1 @@
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\XamarinFormsFromWizard\XamarinFormsFromWizard.UWP\XamarinFormsFromWizard.UWP.csproj;x86
