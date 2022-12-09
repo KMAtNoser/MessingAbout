@@ -11,7 +11,7 @@ namespace XamarinFormsFromWizard.Services
             object value, 
             Type targetType,
             object parameter, 
-            CultureInfo culture) => (value != null) && (value.ToString() == "Kevin");
+            CultureInfo culture) => (value != null) && (value.ToString().ToLower() == "kevin");
 
         public object ConvertBack(object value, Type targetType,
             object parameter, CultureInfo culture)

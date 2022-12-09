@@ -3,7 +3,16 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "XamarinFormsFromWizard.Android.dll" comes first in this list. */
 		"XamarinFormsFromWizard.Android.dll",
+		"EntityFramework.dll",
+		"EntityFramework.SqlServer.dll",
 		"FormsViewGroup.dll",
+		"System.CodeDom.dll",
+		"System.Configuration.ConfigurationManager.dll",
+		"System.Data.SQLite.dll",
+		"System.Data.SQLite.EF6.dll",
+		"System.Security.AccessControl.dll",
+		"System.Security.Permissions.dll",
+		"System.Security.Principal.Windows.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

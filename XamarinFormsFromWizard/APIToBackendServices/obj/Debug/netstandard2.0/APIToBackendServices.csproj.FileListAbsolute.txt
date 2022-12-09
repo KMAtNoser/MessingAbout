@@ -1,0 +1,10 @@
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\bin\Debug\netstandard2.0\APIToBackendServices.deps.json
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\bin\Debug\netstandard2.0\APIToBackendServices.dll
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\bin\Debug\netstandard2.0\APIToBackendServices.pdb
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\obj\Debug\netstandard2.0\APIToBackendServices.csproj.AssemblyReference.cache
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\obj\Debug\netstandard2.0\APIToBackendServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\obj\Debug\netstandard2.0\APIToBackendServices.AssemblyInfoInputs.cache
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\obj\Debug\netstandard2.0\APIToBackendServices.AssemblyInfo.cs
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\obj\Debug\netstandard2.0\APIToBackendServices.csproj.CoreCompileInputs.cache
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\obj\Debug\netstandard2.0\APIToBackendServices.dll
+C:\Work\TryingThingsOut\_repos\XamarinFormsFromWizard\APIToBackendServices\obj\Debug\netstandard2.0\APIToBackendServices.pdb
