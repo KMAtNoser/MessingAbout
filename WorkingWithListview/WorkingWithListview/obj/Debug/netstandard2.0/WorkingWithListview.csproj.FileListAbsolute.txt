@@ -1,0 +1,16 @@
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\bin\Debug\netstandard2.0\WorkingWithListview.deps.json
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\bin\Debug\netstandard2.0\WorkingWithListview.dll
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\bin\Debug\netstandard2.0\WorkingWithListview.pdb
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\WorkingWithListview.csproj.AssemblyReference.cache
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\WorkingWithListview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\Basic\BasicListXaml.xaml.g.cs
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\Context\ContextActionsXaml.xaml.g.cs
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\Custom\CustomCellXaml.xaml.g.cs
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\HeaderFooter\HeaderFooterXaml.xaml.g.cs
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\Uneven\UnevenRowsXaml.xaml.g.cs
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\WorkingWithListview.AssemblyInfoInputs.cache
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\WorkingWithListview.AssemblyInfo.cs
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\WorkingWithListview.csproj.CoreCompileInputs.cache
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\WorkingWithListview.dll
+C:\Users\kevin.melvin\source\repos\xamarin\xamarinSamples\WorkingWithListview\WorkingWithListview\obj\Debug\netstandard2.0\WorkingWithListview.pdb
