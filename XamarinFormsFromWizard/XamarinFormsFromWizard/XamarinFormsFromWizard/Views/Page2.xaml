@@ -12,8 +12,8 @@
                 <StackLayout>
                     <!-- xmlns:vm="clr-namespace:XamarinFormsFromWizard.ViewModels" x:DataType="vm:PeopleViewModel" -->
                     <Entry Text="{Binding FirstName}" />
-                    <Entry Text="{Binding Path=Surname}"/>
-                    <Entry Text="{Binding Path=Age}"/>
+                    <Entry Text="{Binding Surname}"/>
+                    <Entry Text="{Binding Age}"/>
                 </StackLayout>
             </DataTemplate>
         </ResourceDictionary>

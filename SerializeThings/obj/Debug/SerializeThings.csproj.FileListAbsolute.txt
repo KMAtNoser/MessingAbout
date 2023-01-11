@@ -1,0 +1,8 @@
+C:\Work\TryingThingsOut\_repos\SerializeThings\obj\Debug\SerializeThings.csproj.AssemblyReference.cache
+C:\Work\TryingThingsOut\_repos\SerializeThings\obj\Debug\SerializeThings.csproj.SuggestedBindingRedirects.cache
+C:\Work\TryingThingsOut\_repos\SerializeThings\obj\Debug\SerializeThings.csproj.CoreCompileInputs.cache
+C:\Work\TryingThingsOut\_repos\SerializeThings\bin\Debug\SerializeThings.exe.config
+C:\Work\TryingThingsOut\_repos\SerializeThings\bin\Debug\SerializeThings.exe
+C:\Work\TryingThingsOut\_repos\SerializeThings\bin\Debug\SerializeThings.pdb
+C:\Work\TryingThingsOut\_repos\SerializeThings\obj\Debug\SerializeThings.exe
+C:\Work\TryingThingsOut\_repos\SerializeThings\obj\Debug\SerializeThings.pdb
