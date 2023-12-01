@@ -9,14 +9,15 @@ using Android.Content;
 
 namespace FileAssociations.Droid
 {
-    [Activity(Label = "FileAssociations", MainLauncher = true, NoHistory = true, LaunchMode = LaunchMode.SingleTask, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    [IntentFilter(
-        new[] { Intent.ActionView },
-        Categories = new[] { Intent.CategoryDefault },
-        DataSchemes = new[] { "content", "file" },
-        DataMimeType = "application/octet-stream",
-        DataHost = "*",
-        DataPathPattern = ".*\\.kev")]
+    [Activity(Label = "FileAssociations", MainLauncher = true, NoHistory = true, LaunchMode = LaunchMode.SingleTask,
+        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    //[IntentFilter(
+    //    new[] { Intent.ActionView },
+    //    Categories = new[] { Intent.CategoryDefault },
+    //    DataSchemes = new[] { "content", "file" },
+    //    DataMimeType = "application/octet-stream",
+    //    DataHost = "*",
+    //    DataPathPattern = ".*\\.kev")]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

@@ -5,8 +5,8 @@
     Changes to this file may cause incorrect behavior and will be lost if
     the contents are regenerated.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.fileassociations" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.fileassociations" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="33" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -16,31 +16,27 @@
     </intent>
   </queries>
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:label="FileAssociations.Android" android:theme="@style/MainTheme">
-    <!--
-        	<activity android:name=".MainActivity" android:exported="true">
-			<intent-filter android:label="File Associations">
-				<action android:name="android.intent.action.VIEW" />
-				<category android:name="android.intent.category.DEFAULT" />
-				<data android:scheme="content" />
-				<data android:scheme="file" />
-				<data android:mimeType="application/octet-stream" />
-				<data android:pathPattern=".*\\.kev" />
-			</intent-filter>
-		</activity>
-        -->
+    <activity android:name="com.companyname.fileassociations.MainActivity" android:exported="true">
+      <intent-filter android:label="File Associations">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:scheme="content" />
+        <data android:scheme="file" />
+        <data android:mimeType="application/whatever" />
+      </intent-filter>
+      <intent-filter android:label="File Associations">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:scheme="content" />
+        <data android:scheme="file" />
+        <data android:mimeType="application/octet-stream" />
+        <data android:pathPattern=".*\\.kev" />
+      </intent-filter>
+    </activity>
     <activity android:name="crc64eacfc58b136ce3f5.MainActivity" android:configChanges="orientation|screenSize" android:exported="true" android:label="FileAssociations" android:launchMode="singleTask" android:noHistory="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-      <intent-filter>
-        <action android:name="android.intent.action.VIEW" />
-        <category android:name="android.intent.category.DEFAULT" />
-        <data android:host="*" />
-        <data android:mimeType="application/octet-stream" />
-        <data android:pathPattern=".*\.kev" />
-        <data android:scheme="content" />
-        <data android:scheme="file" />
       </intent-filter>
     </activity>
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />

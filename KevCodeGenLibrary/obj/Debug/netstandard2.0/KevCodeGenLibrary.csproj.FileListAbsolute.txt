@@ -1,0 +1,11 @@
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\bin\Debug\netstandard2.0\KevCodeGenLibrary.deps.json
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\bin\Debug\netstandard2.0\KevCodeGenLibrary.dll
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\bin\Debug\netstandard2.0\KevCodeGenLibrary.pdb
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.csproj.AssemblyReference.cache
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.AssemblyInfoInputs.cache
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.AssemblyInfo.cs
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.csproj.CoreCompileInputs.cache
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.sourcelink.json
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.dll
+C:\Work\TryingThingsOut\_repos\KevCodeGenLibrary\obj\Debug\netstandard2.0\KevCodeGenLibrary.pdb

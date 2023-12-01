@@ -1,0 +1,12 @@
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\bin\Debug\net8.0\KevinBlazorExternalStuff.deps.json
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\bin\Debug\net8.0\KevinBlazorExternalStuff.dll
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\bin\Debug\net8.0\KevinBlazorExternalStuff.pdb
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\KevinBlazorExternalStuff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\KevinBlazorExternalStuff.AssemblyInfoInputs.cache
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\KevinBlazorExternalStuff.AssemblyInfo.cs
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\KevinBlazorExternalStuff.csproj.CoreCompileInputs.cache
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\KevinBlazorExternalStuff.sourcelink.json
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\KevinBlazorExternalStuff.dll
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\refint\KevinBlazorExternalStuff.dll
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\KevinBlazorExternalStuff.pdb
+C:\Work\TryingThingsOut\_repos\KevinBlazorExternalStuff\obj\Debug\net8.0\ref\KevinBlazorExternalStuff.dll
