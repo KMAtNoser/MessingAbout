@@ -11,10 +11,10 @@ namespace KevinEntities.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterDatabase()
+            _ = migrationBuilder.AlterDatabase()
                 .Annotation("MySQL:Charset", "utf8mb4");
 
-            migrationBuilder.CreateTable(
+            _ = migrationBuilder.CreateTable(
                 name: "Publisher",
                 columns: table => new
                 {
@@ -24,11 +24,11 @@ namespace KevinEntities.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Publisher", x => x.ID);
+                    _ = table.PrimaryKey("PK_Publisher", x => x.ID);
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
-            migrationBuilder.CreateTable(
+            _ = migrationBuilder.CreateTable(
                 name: "Book",
                 columns: table => new
                 {
@@ -41,8 +41,8 @@ namespace KevinEntities.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Book", x => x.ISBN);
-                    table.ForeignKey(
+                    _ = table.PrimaryKey("PK_Book", x => x.ISBN);
+                    _ = table.ForeignKey(
                         name: "FK_Book_Publisher_PublisherID",
                         column: x => x.PublisherID,
                         principalTable: "Publisher",
@@ -51,7 +51,7 @@ namespace KevinEntities.Migrations
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
-            migrationBuilder.CreateIndex(
+            _ = migrationBuilder.CreateIndex(
                 name: "IX_Book_PublisherID",
                 table: "Book",
                 column: "PublisherID");
@@ -60,10 +60,10 @@ namespace KevinEntities.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
+            _ = migrationBuilder.DropTable(
                 name: "Book");
 
-            migrationBuilder.DropTable(
+            _ = migrationBuilder.DropTable(
                 name: "Publisher");
         }
     }

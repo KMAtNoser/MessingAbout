@@ -10,7 +10,7 @@ public interface IKevinRepo
     void CreateWeatherForecast();
 }
 
-public class KevinRepo: IKevinRepo
+public class KevinRepo : IKevinRepo
 {
     public KevinTestDBContext DBContext { private get; set; }
 
@@ -20,23 +20,26 @@ public class KevinRepo: IKevinRepo
     }
 
 
-    public IEnumerable<WeatherForecast> GetWeatherForecast() => DBContext.WeatherForecast.Select(x => (WeatherForecast)x);
+    public IEnumerable<WeatherForecast> GetWeatherForecast()
+    {
+        return DBContext.WeatherForecast.Select(x => (WeatherForecast)x);
+    }
 
     public void CreateWeatherForecast()
     {
-       
-        var summaries = new[]
+
+        string[] summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        var weatherForecast = KevinEntities.Data.WeatherForecast.Create(
+        KevinEntities.Data.WeatherForecast weatherForecast = KevinEntities.Data.WeatherForecast.Create(
             date: DateTime.Now.AddDays(Random.Shared.Next(-7, +7)),
             temperatureC: Random.Shared.Next(-20, 55),
             summary: summaries[Random.Shared.Next(summaries.Length)]);
-        DBContext.WeatherForecast.Add(weatherForecast);
+        _ = DBContext.WeatherForecast.Add(weatherForecast);
 
-        DBContext.SaveChanges();
+        _ = DBContext.SaveChanges();
     }
 }
 

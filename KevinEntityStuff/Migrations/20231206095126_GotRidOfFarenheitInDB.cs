@@ -10,7 +10,7 @@ namespace KevinEntities.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
+            _ = migrationBuilder.DropColumn(
                 name: "TemperatureF",
                 table: "WeatherForecast");
         }
@@ -18,7 +18,7 @@ namespace KevinEntities.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
+            _ = migrationBuilder.AddColumn<int>(
                 name: "TemperatureF",
                 table: "WeatherForecast",
                 type: "int",

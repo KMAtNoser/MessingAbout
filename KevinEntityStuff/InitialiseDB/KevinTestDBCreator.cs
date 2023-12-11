@@ -14,18 +14,18 @@ public class KevinTestDBCreator
     public void Create()
     {
         // Creates the database if not exists
-        DBContext.Database.EnsureCreated();
+        _ = DBContext.Database.EnsureCreated();
 
         // Adds a publisher
-        var publisher = new Publisher
+        Publisher publisher = new()
         {
             Name = "Mariner Books"
         };
 
-        DBContext.Publisher.Add(publisher);
+        _ = DBContext.Publisher.Add(publisher);
 
         // Adds some books
-        DBContext.Book.Add(new Book
+        _ = DBContext.Book.Add(new Book
         {
             ISBN = "978-0544003415",
             Title = "The Lord of the Rings",
@@ -34,7 +34,7 @@ public class KevinTestDBCreator
             Pages = 1216,
             Publisher = publisher
         });
-        DBContext.Book.Add(new Book
+        _ = DBContext.Book.Add(new Book
         {
             ISBN = "978-0547247762",
             Title = "The Sealed Letter",
@@ -45,7 +45,7 @@ public class KevinTestDBCreator
         });
 
         // Saves changes
-        DBContext.SaveChanges();
+        _ = DBContext.SaveChanges();
     }
 }
 

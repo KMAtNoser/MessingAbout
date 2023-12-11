@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -11,7 +10,7 @@ namespace KevinEntities.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
+            _ = migrationBuilder.CreateTable(
                 name: "WeatherForecast",
                 columns: table => new
                 {
@@ -23,7 +22,7 @@ namespace KevinEntities.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_WeatherForecast", x => x.Id);
+                    _ = table.PrimaryKey("PK_WeatherForecast", x => x.Id);
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
         }
@@ -31,7 +30,7 @@ namespace KevinEntities.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
+            _ = migrationBuilder.DropTable(
                 name: "WeatherForecast");
         }
     }

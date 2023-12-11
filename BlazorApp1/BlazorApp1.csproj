@@ -21,4 +21,6 @@
     <ProjectReference Include="..\WebAPIGeneratedClient\WebAPIGeneratedClient.csproj" />
   </ItemGroup>
 
+  <Import Project="..\KevinSharedProject\KevinSharedProject.projitems" Label="Shared" />
+
 </Project>

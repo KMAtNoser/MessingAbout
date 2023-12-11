@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KevinRepo", "..\KevinsServi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KevinWebAPIService", "..\KevinWebAPIService\KevinWebAPIService.csproj", "{8AC81BBF-C2A4-4576-B344-AA8620B77F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIGeneratedClient", "..\WebAPIGeneratedClient\WebAPIGeneratedClient.csproj", "{3B62AE8E-395C-4B6A-963D-911257991E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIGeneratedClient", "..\WebAPIGeneratedClient\WebAPIGeneratedClient.csproj", "{3B62AE8E-395C-4B6A-963D-911257991E45}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "KevinSharedProject", "..\KevinSharedProject\KevinSharedProject.shproj", "{C3AF7289-F64C-49A2-BF3F-8748D3D4E3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMReferenceConsoleApp", "..\COMReferenceConsoleApp\COMReferenceConsoleApp.csproj", "{699FCA06-3158-4BA6-83DE-B456007F592C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,11 +49,19 @@ Global
 		{3B62AE8E-395C-4B6A-963D-911257991E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B62AE8E-395C-4B6A-963D-911257991E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B62AE8E-395C-4B6A-963D-911257991E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699FCA06-3158-4BA6-83DE-B456007F592C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699FCA06-3158-4BA6-83DE-B456007F592C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699FCA06-3158-4BA6-83DE-B456007F592C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699FCA06-3158-4BA6-83DE-B456007F592C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9BA7782-8A41-48FB-8CDE-5C8AD388EBBC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\KevinSharedProject\KevinSharedProject.projitems*{97ea48ba-b863-4820-bcf6-e8980d56da5b}*SharedItemsImports = 5
+		..\KevinSharedProject\KevinSharedProject.projitems*{c3af7289-f64c-49a2-bf3f-8748d3d4e3cf}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

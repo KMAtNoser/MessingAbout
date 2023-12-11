@@ -1,7 +1,7 @@
 using KevinEntities;
 using KevinRepo;
 
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -12,13 +12,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<KevinTestDBContext>();
 builder.Services.AddSingleton<IKevinRepo, KevinRepo.KevinRepo>();
 
-var app = builder.Build();
+WebApplication app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    _ = app.UseSwagger();
+    _ = app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

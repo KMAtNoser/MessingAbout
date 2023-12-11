@@ -15,11 +15,13 @@ public class WeatherForecast
     }
 
     public static WeatherForecast Create(DateTime date, int temperatureC, string? summary)
-        => new()
+    {
+        return new()
         {
             Id = Guid.NewGuid(),
             Date = date,
             TemperatureC = temperatureC,
             Summary = summary
         };
+    }
 }

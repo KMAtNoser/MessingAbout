@@ -1,6 +1,5 @@
-using Microsoft.AspNetCore.Mvc;
-
 using KevinRepo.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace KevinWebAPIService.Controllers
 {
@@ -16,12 +15,18 @@ namespace KevinWebAPIService.Controllers
             _kevinRepo = kevinRepo;
             _logger = logger;
         }
-        
+
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get() => _kevinRepo.GetWeatherForecast();
+        public IEnumerable<WeatherForecast> Get()
+        {
+            return _kevinRepo.GetWeatherForecast();
+        }
 
         [HttpPost(Name = "CreateWeatherForecast")]
-        public void Post() => _kevinRepo.CreateWeatherForecast();
+        public void Post()
+        {
+            _kevinRepo.CreateWeatherForecast();
+        }
     }
 }

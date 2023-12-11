@@ -11,7 +11,10 @@ namespace BlazorApp1.Components.Pages
         [Inject]
         public IWeatherForecastHttpRepository? WeatherForecastRepo { get; set; }
 
-        protected override Task OnInitializedAsync() => UpdateForecasts();
+        protected override Task OnInitializedAsync()
+        {
+            return UpdateForecasts();
+        }
 
         private async Task UpdateForecasts()
         {
